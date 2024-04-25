@@ -3,4 +3,15 @@
     height: 800px;
     background-color: rgb(12, 26, 26);
     border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 60px;
+    grid-template-areas: "header";
+}
+header{
+    grid-area: header;
+    background-color: rgb(37, 37, 37);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
